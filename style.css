@@ -1,0 +1,23 @@
+#top-bg-img{
+    background-image: url('header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#middle-bg-img{
+    background-image: url('biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer-bg-img{
+    background-image: url('footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-shadow:hover{
+    box-shadow: 5px 5px 20px gray;
+}
+@media(max-width:991px){
+    #h1-sizing{
+        font-size:30px ;
+    }
+}
